@@ -1,3 +1,4 @@
+This project demonstrates end-to-end implementation of a Convolutional Neural Network for image classification using TensorFlow and Keras.
 Cats vs Dogs Image Classification using CNN
 
 
