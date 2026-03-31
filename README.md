@@ -8,10 +8,14 @@ This project focuses on building a Convolutional Neural Network (CNN) to classif
 The model was trained using TensorFlow and Keras, and achieved an accuracy of approximately 70% on the test dataset.
 ________________________________________
 Motivation
+
+
 Image classification is a fundamental problem in computer vision and has real-world applications such as surveillance systems, medical imaging, and automated content filtering.
 I chose this project to gain practical experience with Convolutional Neural Networks and to understand how deep learning models process and learn from image data.
 ________________________________________
 Dataset
+
+
 The dataset consists of images of cats and dogs organized into three directories:
 •	Training set
 •	Validation set
@@ -19,6 +23,8 @@ The dataset consists of images of cats and dogs organized into three directories
 The training and validation datasets contain labeled images, while the test dataset contains unlabeled images used for evaluation.
 ________________________________________
 Approach
+
+
 1. Data Preprocessing
 •	Used ImageDataGenerator to load and preprocess images
 •	Rescaled pixel values from [0, 255] to [0, 1]
@@ -35,12 +41,18 @@ Approach
 •	Metric: Accuracy
 ________________________________________
 Results
+
+
 The model achieved:
+
+
 •	Training Accuracy: ~68%
 •	Validation Accuracy: ~70%
 The performance indicates that the model is able to generalize reasonably well on unseen data.
 ________________________________________
 Challenges Faced
+
+
 1. Environment Setup Issues
 Initially, I faced issues installing TensorFlow locally due to Python version incompatibility. TensorFlow does not support the latest Python versions, which caused installation failures.
 Solution:
@@ -61,18 +73,24 @@ Solution:
 Extracted the scalar value from the array before applying the round() function.
 ________________________________________
 Key Learnings
+
+
 •	Understanding how CNNs extract features from images
 •	Importance of data preprocessing and augmentation
 •	Handling real-world debugging issues in ML workflows
 •	Working with Keras data generators and model pipelines
 ________________________________________
 How to Run
+
+
 1.	Open the notebook in Google Colab
 2.	Run all cells sequentially
 3.	The model will train and display accuracy and loss graphs
 4.	Final predictions will be evaluated automatically
 ________________________________________
 Future Improvements
+
+
 •	Improve accuracy using transfer learning (e.g., MobileNet, ResNet)
 •	Reduce model complexity to avoid overfitting
 •	Experiment with hyperparameter tuning
